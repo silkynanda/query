@@ -267,10 +267,6 @@ __pycache__/
 
 # Cake - Uncomment if you are using it
 # tools/
-/src/Apps/packages
-/src/Apps/CMSApp.Droid/Resources/Resource.Designer.cs
 
 # wwwroot/lib
-/src/Portal/wwwroot/lib
-/src/Portal/Properties/PublishProfiles
 /.vscode
