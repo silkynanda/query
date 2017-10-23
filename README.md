@@ -15,7 +15,12 @@ Package that provides the foundation to implement the Query Pattern
 - Pasted the following code:
 
 ```csharp
-public class SumQuery : IQuery<int>
+using System;
+using Chroomsoft.Queries;
+
+namespace Example
+{
+    public class SumQuery : IQuery<int>
     {
         public int A { get; set; }
         public int B { get; set; }
@@ -47,4 +52,5 @@ public class SumQuery : IQuery<int>
             Console.ReadKey();
         }
     }
+}
 ```
