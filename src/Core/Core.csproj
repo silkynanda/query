@@ -4,6 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Chroomsoft.Queries</AssemblyName>
     <RootNamespace>Chroomsoft.Queries</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Rick Neeft</Authors>
+    <Company>Chroomsoft</Company>
+    <Product>Chroomsoft Queries</Product>
+    <Description>A foundation to implement the query pattern</Description>
+    <PackageProjectUrl>https://github.com/rneeft/query</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rneeft/query</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
